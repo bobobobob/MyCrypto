@@ -34,7 +34,7 @@ const ContractDropdownItem = ({
   option: Contract;
   onSelect?(option: Contract): void;
 }) => (
-  <div style={{ padding: '12px 15px' }} onClick={() => onSelect && onSelect(option)}>
+  <div style={{ padding: '12px 15px 12px 0px' }} onClick={() => onSelect && onSelect(option)}>
     {option.name}
   </div>
 );
